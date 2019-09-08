@@ -1,0 +1,45 @@
+@keyframes arrowBounce {
+  0% {
+    transform: rotate(90deg) translateX(0px);
+  }
+  50% {
+    transform: rotate(90deg) translateX(15px);
+  }
+  100% {
+    transform: rotate(90deg) translateX(0px);
+  }
+}
+
+@keyframes arrowBounceFancy {
+  0% {
+    transform: rotate(180deg) translateY(0px);
+  }
+  50% {
+    transform: rotate(180deg) translateY(-15px);
+  }
+  100% {
+    transform: rotate(180deg) translateY(0px);
+  }
+}
+
+.arrow-down {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  font-size: .6em;
+  bottom: 25px;
+  img {
+    margin-top: .5em;
+    height: 2.5em;
+    animation: arrowBounce 1.7s ease-out infinite;
+    cursor: pointer;
+  }
+  &.arrow-fancy {
+    img {
+      animation: arrowBounceFancy 1.7s ease-out infinite;
+    }
+  }
+}
