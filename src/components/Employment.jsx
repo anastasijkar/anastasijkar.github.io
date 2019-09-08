@@ -31,7 +31,7 @@ class Employment extends Component {
             <div className='history-item__info'>
               <strong>Markup Developer</strong>
               <img className='info' src={Genie} alt='Genie Solutions' />
-              <p>was my first part-time job, where I had a chance to work on womething real and make sure I like the thing.</p>
+              <p>was my first part-time job, where I had a chance to work on something real and make sure I like the thing.</p>
             </div>
           </div>
 

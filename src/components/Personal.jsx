@@ -25,7 +25,7 @@ class Personal extends Component {
         </h2>
         <div className="personal__info">
           <p>I can describe myself like as a creative person who gets easily inspired by new things (and even simple things) and excited about meeting new people. I always try to be patient to anything in my life and keep the positive attitude.</p>
-          <p>When it comes to hobbies, music takes special place in my life. I've been a vocalist in a band for several years, now mainly writing songs & learning guitar and ukulele. I like to travel, but who doesn't? Top-3 things in this topic for me are: airplanes, discovering new tasty foods, and going to music festivals. <img className="emoji" src={StarEyes} alt="" /></p>
+          <p>When it comes to hobbies, music takes special place in my life. I've been a vocalist in a band for several years, now mainly write songs & learn guitar and ukulele. I like to travel, but who doesn't? Top-3 things in this topic for me are: airplanes, discovering new tasty foods, and going to music festivals. <img className="emoji" src={StarEyes} alt="" /></p>
           <p>I am also interested in yoga, cooking, and eco lifestyle.</p>
           <p>Currently I'm 23 y.o., and located in <img className="emoji" src={UA} alt="" /> Kharkiv, Ukraine.</p>
         </div>
