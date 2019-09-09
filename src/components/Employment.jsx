@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import './Employment.scss';
 
+import * as ScrollMagic from 'ScrollMagic';
+import { TimelineLite, Power1 } from "gsap/all";
+
+import 'animation.gsap'
+
 import FollowDown from './FollowDown';
 
 import Dizzy from '../assets/dizzy.png';
@@ -15,6 +20,23 @@ import Customers from '../assets/customers.png';
 import InfoArrow from '../assets/play-button.svg';
 
 class Employment extends Component {
+  componentDidMount () {
+    let controller = new ScrollMagic.Controller();
+
+    let section = document.getElementsByClassName('employment');
+
+    new ScrollMagic.Scene({
+      triggerElement: section,
+      triggerHook: 0.85
+    })
+    .setTween(new TimelineLite()
+        .to(section, 0.7, {
+            color: 'red'
+        }, 0))
+    .addTo(controller);
+  }
+
+
   render() {
     return (
       <section className="employment">
