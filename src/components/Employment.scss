@@ -1,6 +1,6 @@
 $arrow_height: 100px;
 
-.employment {
+.App .employment {
   h2 {
     margin-top: 8em;
   }
@@ -59,6 +59,7 @@ $arrow_height: 100px;
     text-align: center;
     right: 0px;
     opacity: .25;
+    overflow: hidden;
     .arrow-inner {
       display: inline-block;
       height: $arrow_height;
@@ -83,6 +84,9 @@ $arrow_height: 100px;
   }
 
   @media all and (min-width: 860px) {
+    &__history-wrapper {
+      //height: 400vh;
+    }
     &__row {
       display: flex;
       flex-direction: row;
@@ -130,7 +134,7 @@ $arrow_height: 100px;
         .arrow-inner {
           height: $arrow-height*2.5;
           background-image: url(../assets/empl_arrow_mid.png);
-          background-size: contain;
+          background-size: auto $arrow-height*2.5;
         }
       }
       &.arrow-curly1 {
