@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.bb34e74f.chunk.css",
-    "main.js": "/static/js/main.82791a91.chunk.js",
-    "main.js.map": "/static/js/main.82791a91.chunk.js.map",
+    "main.css": "/static/css/main.47ed88d7.chunk.css",
+    "main.js": "/static/js/main.ecd2495a.chunk.js",
+    "main.js.map": "/static/js/main.ecd2495a.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.f923b075.js",
     "runtime~main.js.map": "/static/js/runtime~main.f923b075.js.map",
     "static/css/2.7fad5d03.chunk.css": "/static/css/2.7fad5d03.chunk.css",
-    "static/js/2.95027623.chunk.js": "/static/js/2.95027623.chunk.js",
-    "static/js/2.95027623.chunk.js.map": "/static/js/2.95027623.chunk.js.map",
+    "static/js/2.e15d43a2.chunk.js": "/static/js/2.e15d43a2.chunk.js",
+    "static/js/2.e15d43a2.chunk.js.map": "/static/js/2.e15d43a2.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0f467c5f58e48fb665e6c91597e77403.js": "/precache-manifest.0f467c5f58e48fb665e6c91597e77403.js",
+    "precache-manifest.9727ef54dfcd126f0bc6c4e738531e54.js": "/precache-manifest.9727ef54dfcd126f0bc6c4e738531e54.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.7fad5d03.chunk.css.map": "/static/css/2.7fad5d03.chunk.css.map",
-    "static/css/main.bb34e74f.chunk.css.map": "/static/css/main.bb34e74f.chunk.css.map",
+    "static/css/main.47ed88d7.chunk.css.map": "/static/css/main.47ed88d7.chunk.css.map",
     "static/media/3d-up-arrow.svg": "/static/media/3d-up-arrow.675a7f0d.svg",
     "static/media/App.scss": "/static/media/IndieFlower-Regular.0841af95.ttf",
     "static/media/customers.png": "/static/media/customers.f111f499.png",
@@ -34,6 +34,7 @@
     "static/media/right-drawn-arrow.svg": "/static/media/right-drawn-arrow.93119a07.svg",
     "static/media/skills.png": "/static/media/skills.9d394f3d.png",
     "static/media/skills_add.png": "/static/media/skills_add.4df9ecf0.png",
+    "static/media/speaking-head.png": "/static/media/speaking-head.927e8db5.png",
     "static/media/stareyes.png": "/static/media/stareyes.e62ec63e.png",
     "static/media/telegram.png": "/static/media/telegram.3f872ee6.png"
   }
