@@ -206,7 +206,7 @@ class Employment extends Component {
     })
     .setTween(new TimelineLite()
       .to(history, 0.35, {
-        transform: 'translateY(-15%)'
+        transform: 'translateY(-20%)'
       }))
     .addTo(controller)
     //.addIndicators();

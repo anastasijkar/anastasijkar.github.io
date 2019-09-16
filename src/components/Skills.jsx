@@ -5,6 +5,7 @@ import FollowDown from './FollowDown';
 
 import SkillsHand from '../assets/skills.png';
 import SkillsAdd from '../assets/skills_add.png';
+import Languages from '../assets/speaking-head.png';
 
 import Skill1 from '../assets/skill_1.png';
 import Skill2 from '../assets/skill_2.png';
@@ -39,6 +40,12 @@ class Skills extends Component {
           <p><img className='emoji' src={SkillsAdd} alt='' /> and of course, I am familiar with modern web development tools such as Webpack, ESLint,
             <br/>have a lot of experience with git,
             <br/>can deal with Photoshop, Sketch, inVision etc.</p>
+        </div>
+        <div className='skills__etc etc-languages'>
+          <p><img className='emoji' src={Languages} alt='' /> I've been using English on everyday basis for a long time,
+            <br />so there's no problem for me with speaking or understanding technical documentation.
+            <br />Ukrainian and Russian are my mother tongues.
+            <br />Also, lately I've started learning Polish.</p>
         </div>
         
         <FollowDown fancy nextSection='works' />

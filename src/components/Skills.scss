@@ -1,7 +1,23 @@
+@keyframes muscle {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(10deg) scale(1.15);
+  }
+  20% {
+    transform: rotate(0deg);
+  }
+}
+
 .skills {
   h1 {
     margin-bottom: 1.5em;
     margin-top: 8em;
+    .emoji {
+      transform-origin: bottom right;
+      animation: muscle 4s ease-out infinite;
+    }
   }
   &__content {
     display: flex;
@@ -29,7 +45,10 @@
   &__etc {
     width: 85%;
     font-size: .8em;
-    margin: .5em 0 3em;
+    margin: 2em 0 1em;
+    &.etc-languages {
+      margin-bottom: 5em;
+    }
   }
 
   @media all and (min-width: 860px) {

@@ -43,10 +43,12 @@ class Personal extends Component {
           </div>
         </div>
         <footer>
+          <p className="personal__cv-link"><a href="https://docs.google.com/document/d/1FdctdoGDEPpyFbZotNM-ca7601Hyd1lji-XzUD_Q05M/edit?usp=sharing" rel="noopener noreferrer" target="_blank">[  View / download <s>boring</s> static version of this CV  ]</a></p>
+
           <p>&copy; Anastasiia Rudych</p>
           <p>Last update: Sept 8th, 2019</p>
 
-          <p>Icons from <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">here</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">here</a></p>
+          <p>Icons from <a href="https://www.flaticon.com/authors/pixel-perfect" rel="noopener noreferrer" target="_blank" title="Pixel perfect">here</a> and <a href="https://www.flaticon.com/authors/freepik" rel="noopener noreferrer" target="_blank" title="Freepik">here</a></p>
         </footer>
       </section>
     );
