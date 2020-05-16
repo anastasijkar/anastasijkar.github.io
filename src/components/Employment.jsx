@@ -376,7 +376,7 @@ class Employment extends Component {
               </div>
               <img className='history-item__info-arrow' src={InfoArrow} alt='' />
               <div className='history-item__info'>
-                <strong className='sub'>Took a part in 
+                <strong className='sub'>Took part in 
                   <br/>a student-powered startup
                   <br/>as frontend developer</strong>
                 <p>had lots of fun with basics of JS, Instagram API and even some ASP.Net.</p>
