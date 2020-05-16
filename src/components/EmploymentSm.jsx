@@ -14,6 +14,7 @@ import Medal from '../assets/medal.png';
 import Genie from '../assets/genie.png';
 import Inn4Sc from '../assets/inn4s.png';
 import TBWA from '../assets/tbwa.png';
+import Liki from '../assets/liki.png';
 import Customers from '../assets/customers.png';
 
 import InfoArrow from '../assets/play-button.svg';
@@ -175,11 +176,12 @@ class EmploymentSm extends Component {
               </div>
               <img className='history-item__info-arrow' src={InfoArrow} alt='' />
               <div className='history-item__info'>
-                <strong>Frontend Developer</strong>
+                <strong>JS Developer</strong>
                 <img className='info' src={TBWA} alt='TBWA /Mobile' />
                 <p>had a chance to work with well-known brands such as
                   <br/><img className='customers' src={Customers} alt='Dobbi by Persil, McDonalds Netherlands, Esso, Blokker.nl' />
-                  <br/>put a lot of effort in gamification web experiences</p>
+                  <br/>worked on both Frontend and Backend,
+                  <br/>put a lot of effort in gamification web experiences.</p>
               </div>
             </div>
 
@@ -190,12 +192,13 @@ class EmploymentSm extends Component {
 
             <div className='employment__history-item history-item item-sm'>
               <div className='history-item__date'>
-                <span>June <br/><span className='history-item__date-year'>2019</span></span>
+                <span>December <br/><span className='history-item__date-year'>2019</span></span>
               </div>
               <img className='history-item__info-arrow' src={InfoArrow} alt='' />
               <div className='history-item__info'>
-                <strong>promoted to Full Stack JS</strong>
-                <p>started dealing with node.js & Firebase Cloud Functions </p>
+                <strong>Js Developer</strong>
+                <img className='info' src={Liki} alt='Liki Mobile Solutions' />
+                <p>Relocated to Poland and continuing my career path here at the moment.</p>
               </div>
             </div>
           </div>

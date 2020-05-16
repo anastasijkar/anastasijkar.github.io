@@ -20,20 +20,22 @@ class Skills extends Component {
         <div className='skills__content'>
           <div className='skills__content-item'>
             <img src={Skill4} alt='Fluent' title='Have a bunch of experience with' />
-            <p>HTML, CSS/SCSS, Responsive Styling, JavaScript</p>
+            <p>HTML, CSS/SCSS, Responsive Styling, JavaScript, ES6+, React/Redux</p>
           </div>
           <div className='skills__content-item'>
             <img src={Skill3} alt='Advanced' title='Have been working with that a lot, still there is always room to grow' />
-            <p>ECMAScript 6-8, React/Redux</p>
+            <p>Vue/Vuex, Redux Saga</p>
           </div>
           <div className='skills__content-item'>
             <img src={Skill2} alt='Familiarity' title='Can work with that, but early in the process / worked with that > 1 year ago' />
-            <p>Vue/Vuex
-            <br/>Node.js, Firebase</p>
+            <p>Node.js, Firebase
+              <br/>Browser extensions development</p>
           </div>
           <div className='skills__content-item'>
             <img src={Skill1} alt='Basics' title='Know basic concepts from University / online tutorials' />
-            <p>C# .Net / ASP.Net, Angular 4, Ionic</p>
+            <p>Jest, Jasmine
+              <br/>Angular, Ionic, React Native
+              <br/>C# .Net / ASP.Net, </p>
           </div>
         </div>
         <div className='skills__etc'>
@@ -45,7 +47,7 @@ class Skills extends Component {
           <p><img className='emoji' src={Languages} alt='' /> I've been using English on everyday basis for a long time,
             <br />so there's no problem for me with speaking or understanding technical documentation.
             <br />Ukrainian and Russian are my mother tongues.
-            <br />Also, lately I've started learning Polish.</p>
+            <br />Also I'm quite comfortable with Polish, both spoken and written.</p>
         </div>
         
         <FollowDown fancy nextSection='works' />
