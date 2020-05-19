@@ -42,8 +42,8 @@ const switchProps = {
     left: calc(50vw - .5em);
     bottom: 1em;
     &::after {
-      margin-top: -2.5em;
-      margin-left: -3em;
+      margin-top: -2em;
+      margin-left: -5.25em;
     }
     
   `,
@@ -56,9 +56,10 @@ export const Switch = styled.div`
 
   &::after {
     display: inline-block;
+    width: 10em;
     position: absolute;
     content: '${props => props.text}';
-    font-size: 0.7em;
+    font-size: 0.6em;
   }
 
   ${props => switchProps[props.side]}

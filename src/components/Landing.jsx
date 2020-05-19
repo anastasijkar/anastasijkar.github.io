@@ -10,9 +10,9 @@ import { Portrait } from './Landing.styles';
 const Landing = () => {
   return (
     <SectionWrapper className="landing" bgColor={bgColor1}>
-      <h1>Hello there!</h1>
+      <h1>hello there!</h1>
       <Portrait src={Photo} />
-      <p>My name is Anastasiia,
+      <p>my name is Anastasiia,
         <br />I am a JavaScript Developer from planet Earth 
         <br />with 4 years of relevant experience.</p>
     </SectionWrapper>
