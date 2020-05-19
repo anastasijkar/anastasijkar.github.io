@@ -1,52 +1,52 @@
-import React, { Component } from 'react';
-import './App.scss';
-import 'reset-css';
+import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faLongArrowAltRight,
+  faLongArrowAltLeft,
+  faLongArrowAltUp,
+  faLongArrowAltDown
+} from '@fortawesome/free-solid-svg-icons';
+
+import { Switch } from 'styles/common';
 
 import Landing from './components/Landing';
-import Employment from './components/Employment';
-import EmploymentSm from './components/EmploymentSm';
+import Experience from './components/Experience';
 import Skills from './components/Skills';
-import Works from './components/Works';
 import Personal from './components/Personal';
 
-class App extends Component {
+import './reset.css';
+import './App.css';
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      sm: undefined
-    };
-  }
+const SECTIONS = {
+  LANDING: 'LANDING',
+  EXP: 'EXP',
+  SKILLS: 'SKILLS',
+  PERSONAL: 'PERSONAL',
+}
 
-  onResize = () => {
-    let prevSm = this.state.sm;
+const App = () => {
+  const [currentSection, setCurrentSection] = useState(SECTIONS.LANDING);
 
-    this.setState({
-      sm: window.innerWidth <= 860
-    }, () => {
-      if (this.state.sm !== prevSm) {
-        console.log('breakpoint');
-      }
-    })
-  }
-
-  componentWillMount () {
-    this.onResize();
-
-    window.addEventListener('resize', this.onResize, false)
-  }
-
-  render () {
-    return (
-      <div className="App">
-        <Landing />
-        { this.state.sm ? <EmploymentSm /> : <Employment /> }
-        <Skills />
-        <Works />
-        <Personal />
-      </div>
-    );
-  }
+  return (
+    <div className="App">
+      {currentSection !== SECTIONS.LANDING && (<Switch side='top'>
+        <FontAwesomeIcon icon={faLongArrowAltUp} />
+      </Switch>)}
+      <Switch side='left' text='Personal'>
+        <FontAwesomeIcon icon={faLongArrowAltLeft} />
+      </Switch>
+      <Switch side='right' text='Skills'>
+        <FontAwesomeIcon icon={faLongArrowAltRight} />
+      </Switch>
+      <Switch side='bottom' text='Experience'>
+        <FontAwesomeIcon icon={faLongArrowAltDown} />
+      </Switch>
+      <Landing />
+      <Experience />
+      <Skills />
+      <Personal />
+    </div>
+  );
 }
 
 export default App;

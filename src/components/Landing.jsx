@@ -1,27 +1,22 @@
-import React, { Component } from 'react';
-import './Landing.scss';
+import React from 'react';
 
-import FollowDown from './FollowDown';
+import { SectionWrapper } from 'styles/common';
+import { bgColor1 } from 'styles/theme';
 
-import Photo from '../assets/photo.png';
-import Earth from '../assets/earth.png';
-import Hand from '../assets/hand.png';
+import Photo from 'assets/photo.jpeg';
 
-class Landing extends Component {
-  render() {
-    return (
-      <section className="landing">
-        <h1>Hi there! <img className='emoji' src={Hand} alt='' /></h1>
-        <img className='landing__photo' src={Photo} alt='The pic of me' />
-        <p>My name is Nastia,
-        <br/>I am a JavaScript Developer from planet Earth <img className='emoji' src={Earth} alt='' />
-        <br/>with 3 years of relevant experience.</p>
-        <FollowDown nextSection='employment'>
-          <span>Learn more about what I do</span>
-        </FollowDown>
-      </section>
-    );
-  }
+import { Portrait } from './Landing.styles';
+
+const Landing = () => {
+  return (
+    <SectionWrapper className="landing" bgColor={bgColor1}>
+      <h1>Hello there!</h1>
+      <Portrait src={Photo} />
+      <p>My name is Anastasiia,
+        <br />I am a JavaScript Developer from planet Earth 
+        <br />with 4 years of relevant experience.</p>
+    </SectionWrapper>
+  );
 }
 
 export default Landing;
