@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Portrait = styled.img`
   width: 40%;
-  max-width: 120px;
+  max-width: 170px;
   border-radius: 50%;
   margin: 2em;
   border: 4px double;

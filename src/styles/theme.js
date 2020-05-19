@@ -14,16 +14,16 @@ export const bgColor4 = '#333c54';
 export const textColorMain = '#f6f6f6';*/
 
 
-/*export const bgColor1 = '#dde0b6';
+export const bgColor1 = '#dde0b6';
 export const bgColor2 = '#b7c06f';
 export const bgColor3 = '#f3e6be';
 export const bgColor4 = '#f5a883';
 export const textColorMain = '#9b3c2e';
-export const textColorSub = '#f6f6f6';*/
+export const textColorSub = '#f6f6f6';
 
 
-export const bgColor1 = '#c5d7d9';
+/*export const bgColor1 = '#c5d7d9';
 export const bgColor2 = '#7dbbb9';
 export const bgColor3 = '#d8d3d0';
 export const bgColor4 = '#dcdbe1';
-export const textColorMain = '#2a5d68';
+export const textColorMain = '#2a5d68';*/
