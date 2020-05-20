@@ -1,6 +1,7 @@
 import { keyframes } from 'styled-components';
 
 export const EASING = 'ease-out';
+export const TRANSITION_TIME = '.2s';
 
 export const slideLeft = keyframes`
   0% {

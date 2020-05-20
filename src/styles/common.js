@@ -1,66 +1,35 @@
 import styled from 'styled-components';
 
 import { textColorMain } from './theme';
-import { EASING, slideLeft } from './animations';
 
 export const SectionWrapper = styled.section`
+  position: relative;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: ${props => props.alignItems || 'flex-start'};
   box-sizing: border-box;
-  padding: 0 1em 6em;
+  padding: 0 2em 6em;
   background-color: ${props => props.bgColor};
   color: ${textColorMain};
 `;
 
-/*animation: 1s ${slideLeft} ${EASING} 1s;*/
-
-const switchProps = {
-  right: `
-    right: 1em;
-    top: calc(50vh - 1em);
-    &::after {
-      transform: rotate(-90deg);
-      margin-left: -4.5em;
-    }
-  `,
-  left: `
-    left: 1em;
-    top: calc(50vh - 1em);
-    &::after {
-      transform: rotate(90deg);
-    }
-  `,
-  top: `
-    left: calc(50vw - .5em);
-    top: 1em;
-  `,
-  bottom: `
-    left: calc(50vw - .5em);
-    bottom: 1em;
-    &::after {
-      margin-top: -2em;
-      margin-left: -5.25em;
-    }
-    
-  `,
-}
-
-export const Switch = styled.div`
-  position: fixed;
+export const ArrowDown = styled.div`
+  position: absolute;
   font-size: 1.5em;
   color: ${textColorMain};
+  left: calc(50vw - .5em);
+  bottom: 1em;
 
   &::after {
+    margin-top: -2em;
+    margin-left: -5.25em;
     display: inline-block;
     width: 10em;
     position: absolute;
     content: '${props => props.text}';
     font-size: 0.6em;
   }
-
-  ${props => switchProps[props.side]}
 `;
