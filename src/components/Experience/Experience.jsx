@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState } from 'react';
 import ReactHtmlParser from 'react-html-parser';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -34,7 +34,7 @@ const EMPLOYMENT_DATA = [{
   <p><em>Tech stack:</em> HTML5, SCSS, ES6+, React/Redux (Redux Saga), Material UI, React Storybook, GraphQL.</p>`,
   link: 'https://likims.com/',
 }, {
-  title: 'TBWA\/ Mobile',
+  title: 'TBWA/ Mobile',
   icons: [faReact, faNodeJs],
   position: 'JS Developer',
   time: 'Jun. 2018 - Dec. 2019',

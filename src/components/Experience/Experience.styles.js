@@ -11,7 +11,7 @@ export const ExperienceWrapper = styled(SectionWrapper)`
 `;
 
 export const ExperienceList = styled.div`
-  margin: 3.5em auto 0;
+  margin: 4em auto;
   max-width: 500px;
   height: 100%;
 `;
