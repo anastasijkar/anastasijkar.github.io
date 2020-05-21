@@ -2,9 +2,15 @@
 
 .App {
   font-family: 'Merriweather', serif;
-  font-size: 16px;
+  font-size: 1.25vw;
   font-weight: 300;
   text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .App {
+    font-size: 16px;
+  }
 }
 
 * {

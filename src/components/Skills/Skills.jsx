@@ -17,7 +17,7 @@ import {
 
 const Skills = () => {
   return (
-    <SkillsWrapper className="skills" bgColor={bgColor4}>
+    <SkillsWrapper id="skills" bgColor={bgColor4}>
       <h1>Skills</h1>
       <SkillsTable>
         <SkillsRow>
@@ -81,9 +81,9 @@ const Skills = () => {
           </SkillsContent>
         </SkillsRow>
       </SkillsTable>
-      {/*<ArrowDown side='bottom' text='personal & contacts'>
+      <ArrowDown side='bottom' text='personal & contacts' href='#personal'>
         <FontAwesomeIcon icon={faLongArrowAltDown} />
-      </ArrowDown>*/}
+      </ArrowDown>
     </SkillsWrapper>
   );
 }

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { SectionWrapper } from 'styles/common';
 
 export const SkillsWrapper = styled(SectionWrapper)`
-  padding-top: 3em;
+  padding-top: 4em;
   justify-content: flex-start;
   align-items: center;
 
@@ -38,6 +38,7 @@ export const SkillsSection = styled.div`
   text-align: right;
   font-style: italic;
   font-weight: bold;
+  word-wrap: break-word;
 `;
 
 export const SkillsContent = styled.div`

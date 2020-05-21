@@ -14,7 +14,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 import { bgColor2 } from 'styles/theme';
-import { ArrowDown } from 'styles/common';
+import { ArrowDown, LinkWithIcon } from 'styles/common';
 
 import {
   ExperienceWrapper,
@@ -96,11 +96,14 @@ const Experience = () => {
         <ExperienceContent extended={currentItem === index}>
           {ReactHtmlParser(item.content)}
           { item.link && (<p>
-            <a 
+            <LinkWithIcon 
               href={item.link}
               target="_blank"
               rel="noopener noreferrer"
-            ><small><FontAwesomeIcon icon={faExternalLinkAlt} /></small> Company webpage</a>
+            >
+              <small><FontAwesomeIcon icon={faExternalLinkAlt} /></small>
+              Company webpage
+            </LinkWithIcon>
           </p>)}
         </ExperienceContent>
       </ExperienceItem>
@@ -108,12 +111,12 @@ const Experience = () => {
   });
 
   return (
-    <ExperienceWrapper className="experience" bgColor={bgColor2} >
+    <ExperienceWrapper id="experience" bgColor={bgColor2} >
       <h1>Experience</h1>
       <ExperienceList>
         {employmentList}
       </ExperienceList>
-      <ArrowDown side='bottom' text='my skills'>
+      <ArrowDown side='bottom' text='my skills' href='#skills'>
         <FontAwesomeIcon icon={faLongArrowAltDown} />
       </ArrowDown>
     </ExperienceWrapper>

@@ -21,10 +21,11 @@ export const bgColor4 = '#dcdbe1';
 export const textColorSub =''
 export const textColorMain = '#2a5d68';*/
 
-
 export const bgColor1 = '#d3e0ce';
 export const bgColor2 = '#9cb8a0';
 export const bgColor3 = '#e7acaa';
 export const bgColor4 = '#e2b995';
 export const textColorSub ='#eae9e4'
 export const textColorMain = '#445d48';
+
+export const mobileBreakpoint = '650px';

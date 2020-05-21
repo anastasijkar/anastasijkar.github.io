@@ -13,13 +13,13 @@ import { Portrait } from './Landing.styles';
 
 const Landing = () => {
   return (
-    <SectionWrapper className="landing" bgColor={bgColor1} alignItems='center'>
+    <SectionWrapper id="landing" bgColor={bgColor1} alignItems='center'>
       <h1>hello there (:</h1>
       <Portrait src={Photo} alt="My photo." />
       <p>my name is <strong>Anastasiia</strong>,
         <br />I am a <strong>JavaScript Developer</strong> from planet Earth 
         <br />with 4 years of relevant experience.</p>
-      <ArrowDown side='bottom' text='learn more'>
+      <ArrowDown side='bottom' text='learn more' href='#experience'>
         <FontAwesomeIcon icon={faLongArrowAltDown} />
       </ArrowDown>
     </SectionWrapper>

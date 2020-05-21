@@ -1,18 +1,17 @@
 import styled from 'styled-components';
 
-import { SectionWrapper } from 'styles/common';
-import { textColorMain } from 'styles/theme';
+import { SectionWrapper, ContentWrapper } from 'styles/common';
 import { EASING, TRANSITION_TIME } from 'styles/animations';
 
 export const ExperienceWrapper = styled(SectionWrapper)`
-  padding-top: 3em;
+  padding-top: 4em;
   justify-content: flex-start;
   align-items: center;
 `;
 
-export const ExperienceList = styled.div`
+export const ExperienceList = styled(ContentWrapper)`
+  width: 45vw;
   margin: 4em auto;
-  max-width: 500px;
   height: 100%;
 `;
 
@@ -110,28 +109,6 @@ export const ExperienceContent = styled.div`
     em {
       font-style: italic;
       font-weight: bold;
-    }
-  }
-
-  a {
-    color: ${textColorMain};
-    font-style: italic;
-    font-weight: bold;
-    font-size: .85em;
-
-    small {
-      font-size: .85em;
-      line-height: .85em;
-      display: inline-block;
-      width: 0;
-      overflow: hidden;
-      transition: width ${TRANSITION_TIME} ${EASING};
-    }
-
-    &:hover {
-      small {
-        width: 1.25em;
-      }
     }
   }
 `;
