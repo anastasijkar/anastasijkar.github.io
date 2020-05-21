@@ -75,7 +75,7 @@ const Personal = () => {
         </PersonalContacts>
         <Copyright>
           <p>© Anastasiia Rudych</p>
-          <p>Last update: June 2020</p>
+          <p>Last update: 21 May 2020</p>
           <p><LinkWithIcon
               secondary 
               href='https://docs.google.com/document/d/1FdctdoGDEPpyFbZotNM-ca7601Hyd1lji-XzUD_Q05M/edit?usp=sharing'
