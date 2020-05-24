@@ -45,21 +45,21 @@ const Personal = () => {
             </a>
             <a
               href='https://join.skype.com/invite/mbTYcJ9cc4hi' 
-              alt='Skype'
+              title='Skype'
               target="_blank"
               rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faSkype} />
             </a>
             <a
               href='https://www.linkedin.com/in/anastasiia-rudych-263155109/' 
-              alt='LinkedIn'
+              title='LinkedIn'
               target="_blank"
               rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faLinkedin} />
             </a>
             <a
               href='https://www.instagram.com/anastasijkar/' 
-              alt='Instagram'
+              title='Instagram'
               target="_blank"
               rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faInstagram} />
