@@ -1,11 +1,9 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faLongArrowAltDown,
-} from '@fortawesome/free-solid-svg-icons';
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLongArrowAltDown } from "@fortawesome/free-solid-svg-icons";
 
-import { bgColor4 } from 'styles/theme';
-import { ArrowDown } from 'styles/common';
+import { bgColor4 } from "styles/theme";
+import { ArrowDown } from "styles/common";
 
 import {
   SkillsWrapper,
@@ -13,7 +11,7 @@ import {
   SkillsRow,
   SkillsSection,
   SkillsContent,
-} from './Skills.styles';
+} from "./Skills.styles";
 
 const Skills = () => {
   return (
@@ -21,47 +19,39 @@ const Skills = () => {
       <h1>Skills</h1>
       <SkillsTable>
         <SkillsRow>
-          <SkillsSection>
-            markup
-          </SkillsSection>
+          <SkillsSection>markup</SkillsSection>
           <SkillsContent>
             <p>HTML5, CSS3, SCSS/SASS, Responsive Styling</p>
             <p>various libraries & styling toolkits</p>
           </SkillsContent>
         </SkillsRow>
         <SkillsRow>
-          <SkillsSection>
-            JS & more
-          </SkillsSection>
+          <SkillsSection>JS & more</SkillsSection>
           <SkillsContent>
-            <p>ECMAScript 6+, React/Redux, Vue.js/Vuex</p>
-            <p>Node.js, Firebase, GraphQL</p>
-            <p><small>Angular, Typescript</small></p>
+            <p>ECMAScript 6+, TypeScript, React/Redux, Vue.js/Vuex, Nuxt</p>
+            <p>Node.js, Firebase</p>
+            <p>
+              <small>GraphQL</small>
+            </p>
             <p>Chrome Extension Development</p>
           </SkillsContent>
         </SkillsRow>
         <SkillsRow>
-          <SkillsSection>
-            tools
-          </SkillsSection>
+          <SkillsSection>tools</SkillsSection>
           <SkillsContent>
-            <p>Gulp, Webpack</p>
+            <p>Webpack, Gulp</p>
             <p>ESLint</p>
             <p>Git</p>
           </SkillsContent>
         </SkillsRow>
         <SkillsRow>
-          <SkillsSection>
-            unit testing
-          </SkillsSection>
+          <SkillsSection>unit testing</SkillsSection>
           <SkillsContent>
             <p>Jest + Enzyme, Mocha, react-testing-library</p>
           </SkillsContent>
         </SkillsRow>
         <SkillsRow>
-          <SkillsSection>
-            other
-          </SkillsSection>
+          <SkillsSection>other</SkillsSection>
           <SkillsContent>
             <p>Jira (+ other Atlassian products)</p>
             <p>Photoshop, inVision, Sketch etc.</p>
@@ -70,9 +60,7 @@ const Skills = () => {
       </SkillsTable>
       <SkillsTable sub>
         <SkillsRow>
-          <SkillsSection>
-            languages
-          </SkillsSection>
+          <SkillsSection>languages</SkillsSection>
           <SkillsContent>
             <p>Ukrainian, Russian - mother tongues</p>
             <p>English - fluent</p>
@@ -81,11 +69,11 @@ const Skills = () => {
           </SkillsContent>
         </SkillsRow>
       </SkillsTable>
-      <ArrowDown side='bottom' text='personal & contacts' href='#personal'>
+      <ArrowDown side="bottom" text="personal & contacts" href="#personal">
         <FontAwesomeIcon icon={faLongArrowAltDown} />
       </ArrowDown>
     </SkillsWrapper>
   );
-}
+};
 
 export default Skills;
