@@ -50,7 +50,7 @@ const Personal = () => {
         </p>
         <p>I am also interested in yoga, cooking, and eco lifestyle.</p>
         <p>
-          Currently I'm <em>24 y.o.</em>, originally from{" "}
+          Currently I'm <em>25 y.o.</em>, originally from{" "}
           <em>Kharkiv, Ukraine</em>, now living in <em>Poznań, Poland</em>.
         </p>
         <PersonalContacts>
