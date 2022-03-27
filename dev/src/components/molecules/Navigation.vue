@@ -112,6 +112,7 @@ export default {
       flex-direction: row;
       max-height: unset;
       overflow-y: unset;
+      transition: transform .8s ease-out;
       transform: translateY(-60px);
       
       &.desktop-visible {
