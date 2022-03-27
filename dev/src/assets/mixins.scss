@@ -1,0 +1,26 @@
+@mixin FWsection() {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+@mixin bgGradient($color1, $color2) {
+  background: $color1; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, $color1 , $color2); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, $color1, $color2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@mixin floatingAnimation($transform){ /* wrapper mixin which accepts input parameter */
+  @keyframes floating {
+    0% { transform: $transform translate(0,  0px); }
+    50%  { transform: $transform translate(0, 3px); }
+    100%   { transform: $transform translate(0, -0px); }   
+  }
+}
+
+@mixin largeHeading() {
+  font-size: 8em;
+  opacity: 0.1;
+  font-style: italic;
+}

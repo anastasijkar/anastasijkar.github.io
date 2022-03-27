@@ -1,0 +1,35 @@
+@import './variables.scss';
+
+html, body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+strong {
+  font-weight: bold;
+  font-style: italic;
+  border-bottom: 1px solid $green-light;
+}
+
+em {
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: $green-light 0px 0px 3px;
+}
+
+a {
+  color: $white;
+  font-style: italic;
+}
