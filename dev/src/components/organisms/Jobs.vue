@@ -47,7 +47,7 @@ export default {
         tags: ['2021-now', 'Poznan | PL'],
         techs: ['React', 'Vue', 'Typescript'],
         description: `<p><strong>Responsibilities:</strong> working on ongoing and new projects, architecting, coding, & maintaining.</p>
-        <p>I took part in development of various projects - from small marketing campaign landings to large CRM-like applications. I've been involved mostly in Frontend works, though for some time came back to Firebase and Node.js; also I had a chance to try out React Native. During my work here I've put effort in enchancing my skills in unit testing and writing better accessible HTML.</p>
+        <p>I took part in development of various projects - from small marketing campaign landings to large CRM-like applications. I've been involved mostly in Frontend works, though for some time came back to Firebase and Node.js; also I had a chance to try out React Native. During my work here I've put effort into enhancing my skills in unit testing and writing better accessible HTML.</p>
         <p><strong>Tech stack:</strong> HTML5, SCSS, TypeScript, React/Redux, Vue/Vuex, Nuxt, react-testing-library, Jest, Node, Firebase, React Native.</p>`
       }, {
         title: 'Appchance',

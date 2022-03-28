@@ -2,7 +2,7 @@
   <section class="contact" id="contact">
     <p>Email: <a href="mailto:rudich1anastasia@gmail.com" target="_blank">rudich1anastasia@gmail.com</a></p>
     <p>LinkedIn: <a href="https://www.linkedin.com/in/anastasiia-rudych/" target="_blank">Anastasiia Rudych</a></p>
-    <p>Facebook: <a href="https://www.instagram.com/anastasijkar/" target="_blank">Anastasiia Rudych</a></p>
+    <p>Facebook: <a href="https://www.facebook.com/anastasiia.rudych.3/" target="_blank">Anastasiia Rudych</a></p>
     <p>Instagram: <a href="https://www.instagram.com/anastasijkar/" target="_blank">@anastasijkar</a></p>
   </section>
 </template>
