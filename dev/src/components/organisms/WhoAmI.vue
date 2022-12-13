@@ -6,11 +6,11 @@
         <span>#standWithUkraine</span>🇺🇦
       </p>
       <p>In the good old 2017, the year when I finished my <strong>Software Engineering studies</strong>, my journey in IT industry has begun.</p>
-      <p>Now I have <strong>5 years of JS developer career</strong> behind my back, still counting!</p>
-      <p>I love building usable, responsive and accessible web applications. Also I eventually enjoy working on complex animations, or server-side stuff.
-      <br />I’m a big fan of Vue.js :)</p>
+      <p>Now I have <strong>6 years of JS developer career</strong> behind my back, still counting!</p>
+      <p>I love building user-friendly, responsive and accessible web applications. Also I enjoy working on complex animations, web-gaming experiences, or eventually server-side stuff.</p>
+      <p><strong>React</strong> and <strong>Vue.js</strong> are good old friends of mine :)</p>
       <p>
-        <em>At the moment I'm open for work opportunities in Portugal, ideally with a relocation package 🇵🇹</em>
+        <em>At the moment I'm open for remote work opportunities in Portugal 🇵🇹</em>
       </p>
       <p>If you’d like to learn more - I invite you to scroll down to read about my career and skills. Also, please feel free to <a @click.prevent="goToContacts">drop me a line!</a></p>
     </div>

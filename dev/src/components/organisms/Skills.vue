@@ -43,8 +43,8 @@
           <p>Ukrainian - native</p>
           <p>English - fluent</p>
           <p>Russian - fluent</p>
-          <p>Polish - intermediate+</p>
-          <p>Portuguese - beginner</p>
+          <p>Polish - upper-intermediate</p>
+          <p>Portuguese - elementary</p>
         </template>
       </SkillCategory>
     </div>

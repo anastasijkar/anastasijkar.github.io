@@ -44,23 +44,23 @@ export default {
       },
       jobData: [{
         title: 'Apptension',
-        tags: ['2021-now', 'Poznan | PL'],
+        tags: ['2021-2022', 'Poznan | PL'],
         techs: ['React', 'Vue', 'Typescript'],
-        description: `<p><strong>Responsibilities:</strong> working on ongoing and new projects, architecting, coding, & maintaining.</p>
-        <p>I took part in development of various projects - from small marketing campaign landings to large CRM-like applications. I've been involved mostly in Frontend works, though for some time came back to Firebase and Node.js; also I had a chance to try out React Native. During my work here I've put effort into enhancing my skills in unit testing and writing better accessible HTML.</p>
+        description: `<p><strong>Responsibilities:</strong> working on ongoing and new projects, architecting, coding & maintaining.</p>
+        <p>I took part in development of various projects - from small marketing campaign landings to web-gaming experiences and large CRM-like applications. I've been involved mostly in Frontend works, though for some time came back to Firebase and Node.js; also I had a chance to try out React Native. During my work here I've put effort into enhancing my skills in unit testing and writing better accessible HTML.</p>
         <p><strong>Tech stack:</strong> HTML5, SCSS, TypeScript, React/Redux, Vue/Vuex, Nuxt, react-testing-library, Jest, Node, Firebase, React Native.</p>`
       }, {
         title: 'Appchance',
         tags: ['2020-2021', 'Poznan | PL'],
         techs: ['Vue', 'Typescript'],
-        description: `<p><strong>Responsibilities:</strong> working on ongoing and new projects, architecting, coding, & maintaining.</p>
+        description: `<p><strong>Responsibilities:</strong> working on ongoing and new projects, architecting, coding & maintaining.</p>
         <p>Here I’ve worked on several e-commerce projects, sometimes had to implement whole Frontend-side by myself from scratch. Had a chance to enhance my TypeScript skills and gain on-hand experience with server-rendering.</p>
         <p><strong>Tech stack:</strong> HTML5, SCSS, TypeScript, Vue/Vuex, Vuetify, Nuxt, Jest/Enzyme.</p>`
       }, {
         title: 'Liki MS',
         tags: ['2019-2020', 'Gdansk | PL'],
         techs: ['React'],
-        description: `<p><strong>Responsibilities:</strong> working on ongoing and new projects, architecting, coding, & maintaining.</p>
+        description: `<p><strong>Responsibilities:</strong> working on ongoing and new projects, architecting, coding & maintaining.</p>
         <p>I have been working mostly on a Frontend part here. Have been involved into several short-term projects, worked as a part of a team or independently.</p>
         <p><strong>Tech stack:</strong> HTML5, SCSS, ES6+, React/Redux (Redux Saga), Material UI, React Storybook, GraphQL.</p>`
       }, {
@@ -88,6 +88,13 @@ export default {
         techs: ['html', 'css'],
         description: `<p><strong>Responsibilities:</strong> creating/correcting html markup.</p>
         <p>This was my first IT job - to try things out :)</p>`
+      },{
+        title: 'Reaktor LX',
+        tags: ['2022-now', 'Lisbon | PT'],
+        techs: ['React', 'Typescript'],
+        description: `<p><strong>Responsibilities:</strong> working on ongoing projects.</p>
+        <p>Doing both internal and client project work there, I've got more hands-on experience with end-to-end testing, as well as been putting effort into getting better in functional programming.</p>
+        <p><strong>Tech stack:</strong> HTML5, SCSS, TypeScript, React/Redux, Next, react-testing-library, GraphQL, Cypress.</p>`
       }]
     }
   }
