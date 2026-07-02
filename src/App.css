@@ -1,0 +1,151 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Nav */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 56px;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.nav-left {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.nav-name {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 1.15rem;
+  color: var(--rust);
+}
+
+.nav-contact {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: var(--rust);
+  transition: opacity 0.15s ease;
+}
+
+.nav-contact:hover {
+  opacity: 0.7;
+}
+
+.nav-contact:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--rust);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Hero */
+.hero {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(16px, 4vw, 56px);
+  padding: 48px 24px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero-name {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: clamp(2.75rem, 8vw, 5.5rem);
+  color: var(--rust);
+  letter-spacing: 0.5px;
+  margin: 0;
+  line-height: 1;
+  flex: 1 1 0;
+}
+
+.arch {
+  flex: 0 0 auto;
+  width: clamp(220px, 24vw, 350px);
+  height: clamp(280px, 30vw, 420px);
+  background: url('./pic.jpg') no-repeat top/cover;
+  background-size: 179%;
+  background-position-y: 24%;
+  background-position-x: 39%;
+  border-radius: 50% 50% 0 0 / 42% 42% 0 0;
+}
+
+.hero-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1 1 0;
+}
+
+.hero-text {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: clamp(0.8rem, 2vw, 1.1rem);
+  color: var(--ink);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.hero-link {
+  font-style: italic;
+
+  &::before {
+    content: '↬';
+    color: var(--rust);
+    margin-inline-end: 4px;
+  }
+}
+
+.text-strong {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+}
+
+/* Footer */
+.year {
+  text-align: center;
+  padding: 32px 24px 56px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--rust);
+}
+
+/* Responsive */
+@media (max-width: 720px) {
+  .nav {
+    padding: 20px 24px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .hero {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hero-name--left,
+  .hero-name--right {
+    text-align: center;
+  }
+
+  .arch {
+    order: -1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
